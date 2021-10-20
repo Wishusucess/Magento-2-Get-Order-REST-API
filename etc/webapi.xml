@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Developer: Hemant Singh Magento 2x Developer
+ * Category:  Wishusucess_GetOrders 
+ * Website:   http://www.wishusucess.com/
+ */
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../app/code/Magento/Webapi/etc/webapi.xsd">
+    <route method="GET" url="/V1/wishusucess/getorders/">
+        <service class="Wishusucess\GetOrders\Api\CustomInterface" method="getPost"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+</routes>

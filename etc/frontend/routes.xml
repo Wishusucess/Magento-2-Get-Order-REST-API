@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Developer: Hemant Singh Magento 2x Developer
+ * Category:  Wishusucess_GetOrders 
+ * Website:   http://www.wishusucess.com/
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/App/etc/routes.xsd">
+    <router id="standard">
+        <route id="wishusucess" frontName="wishusucess">
+            <module name="Wishusucess_GetOrders" />
+        </route>
+    </router>
+</config>

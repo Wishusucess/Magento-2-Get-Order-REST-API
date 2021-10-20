@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Developer: Hemant Singh Magento 2x Developer
+ * Category:  Wishusucess_GetOrders 
+ * Website:   http://www.wishusucess.com/
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Wishusucess_GetOrders" setup_version="1.1.4" />
+</config>

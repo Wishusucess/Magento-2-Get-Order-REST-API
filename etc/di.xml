@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Developer: Hemant Singh Magento 2x Developer
+ * Category:  Wishusucess_GetOrders 
+ * Website:   http://www.wishusucess.com/
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Wishusucess\GetOrders\Api\CustomInterface" type="Wishusucess\GetOrders\Model\Api\Custom"/>
+</config>
